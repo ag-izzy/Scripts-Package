@@ -10,7 +10,7 @@ Citizen.CreateThread(function()
         SetWeaponDamageModifier(`weapon_dbshotgun`, 1.0) -- Weapon Label (Double-barrel Shotgun)
         SetWeaponDamageModifier(`weapon_autoshotgun`, 1.0) -- Weapon Label (Auto Shotgun)
         SetWeaponDamageModifier(`weapon_combatshotgun`, 1.0) -- Weapon Label (Combat Shotgun)
--- MK2 Shotguns
+-- MK2 Shotgun
         SetWeaponDamageModifier(`weapon_pumpshotgun_mk2`, 1.0) -- Weapon Label (Pumpshotgun Mk II)
 	Wait(0)
     end
