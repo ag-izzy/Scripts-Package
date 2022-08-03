@@ -1,0 +1,26 @@
+
+Citizen.CreateThread(function()
+    while true do
+        SetWeaponDamageModifier(`weapon_pistol`, 1.0) -- Weapon Label (Walther P99)	
+        SetWeaponDamageModifier(`weapon_combatpistol`, 1.0) -- Weapon Label (Combat Pistol)	
+        SetWeaponDamageModifier(`weapon_appistol`, 1.0) -- Weapon Label (AP Pistol)	
+        SetWeaponDamageModifier(`weapon_stungun`, 1.0) -- Weapon Label (Taser)	
+        SetWeaponDamageModifier(`weapon_pistol50`, 1.0) -- Weapon Label (Pistol .50)	
+        SetWeaponDamageModifier(`weapon_snspistol`, 1.0) -- Weapon Label (SNS Pistol)	
+        SetWeaponDamageModifier(`weapon_heavypistol`, 1.0) -- Weapon Label (Heavy Pistol)	
+        SetWeaponDamageModifier(`weapon_vintagepistol`, 1.0) -- Weapon Label (Vintage Pistol)	
+        SetWeaponDamageModifier(`weapon_flaregun`, 1.0) -- Weapon Label (Flare Gun)	
+        SetWeaponDamageModifier(`weapon_marksmanpistol`, 1.0) -- Weapon Label (Marksman Pistol)	
+        SetWeaponDamageModifier(`weapon_revolver`, 1.0) -- Weapon Label (Revolver)	
+        SetWeaponDamageModifier(`weapon_doubleaction`, 1.0) -- Weapon Label (Double Action Revolver)	
+        SetWeaponDamageModifier(`weapon_raypistol`, 1.0) -- Weapon Label (Up-n-Atomizer)	
+        SetWeaponDamageModifier(`weapon_ceramicpistol`, 1.0) -- Weapon Label (Ceramic Pistol)	
+        SetWeaponDamageModifier(`weapon_navyrevolver`, 1.0) -- Weapon Label (Navy Revolver)	
+        SetWeaponDamageModifier(`weapon_gadgetpistol`, 1.0) -- Weapon Label (Perico Pistol)	
+-- MK2 Pistols
+        SetWeaponDamageModifier(`weapon_pistol_mk2`, 1.0) -- Weapon Label (Pistol Mk II)	
+        SetWeaponDamageModifier(`weapon_revolver_mk2`, 1.0) -- Weapon Label (Violence)	
+        SetWeaponDamageModifier(`weapon_snspistol_mk2`, 1.0) -- Weapon Label (SNS Pistol Mk II)	
+	Wait(0)
+    end
+end)
